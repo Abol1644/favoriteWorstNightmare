@@ -1,0 +1,88 @@
+import { Track } from '../types';
+
+export const tracks: Track[] = [
+  {
+    id: 1,
+    title: 'Brianstorm',
+    duration: '2:50',
+    file: '/audio/01-Brianstorm.mp3',
+    lyrics: '/lyrics/01-Brianstorm.txt',
+  },
+  {
+    id: 2,
+    title: 'Teddy Picker',
+    duration: '2:43',
+    file: '/audio/02-Teddy Picker.mp3',
+    lyrics: '/lyrics/02-Teddy Picker.txt',
+  },
+  {
+    id: 3,
+    title: 'D Is for Dangerous',
+    duration: '2:16',
+    file: '/audio/03-D Is for Dangerous.mp3',
+    lyrics: '/lyrics/03-D Is for Dangerous.txt',
+  },
+  {
+    id: 4,
+    title: 'Balaclava',
+    duration: '2:49',
+    file: '/audio/04-Balaclava.mp3',
+    lyrics: '/lyrics/04-Balaclava.txt',
+  },
+  {
+    id: 5,
+    title: 'Fluorescent Adolescent',
+    duration: '2:57',
+    file: '/audio/05-Fluorescent Adolescent.mp3',
+    lyrics: '/lyrics/05-Fluorescent Adolescent.txt',
+  },
+  {
+    id: 6,
+    title: 'Only Ones Who Know',
+    duration: '3:02',
+    file: '/audio/06-Only Ones Who Know.mp3',
+    lyrics: '/lyrics/06-Only Ones Who Know.txt',
+  },
+  {
+    id: 7,
+    title: 'Do Me a Favour',
+    duration: '3:27',
+    file: '/audio/07-Do Me a Favour.mp3',
+    lyrics: '/lyrics/07-Do Me a Favour.txt',
+  },
+  {
+    id: 8,
+    title: 'This House Is a Circus',
+    duration: '3:09',
+    file: '/audio/08-This House Is a Circus.mp3',
+    lyrics: '/lyrics/08-This House Is a Circus.txt',
+  },
+  {
+    id: 9,
+    title: 'If You Were There, Beware',
+    duration: '4:34',
+    file: '/audio/09-If You Were There, Beware.mp3',
+    lyrics: '/lyrics/09-If You Were There, Beware.txt',
+  },
+  {
+    id: 10,
+    title: 'The Bad Thing',
+    duration: '2:23',
+    file: '/audio/10-The Bad Thing.mp3',
+    lyrics: '/lyrics/10-The Bad Thing.txt',
+  },
+  {
+    id: 11,
+    title: 'Old Yellow Bricks',
+    duration: '3:11',
+    file: '/audio/11-Old Yellow Bricks.mp3',
+    lyrics: '/lyrics/11-Old Yellow Bricks.txt',
+  },
+  {
+    id: 12,
+    title: '505',
+    duration: '4:13',
+    file: '/audio/12-505.mp3',
+    lyrics: '/lyrics/12-505.txt',
+  },
+];

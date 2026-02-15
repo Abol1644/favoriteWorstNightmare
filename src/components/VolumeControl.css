@@ -1,0 +1,35 @@
+.volume-control {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  min-width: 120px;
+}
+
+.volume-control__icon {
+  color: #a0b8cc;
+  transition: color 0.2s;
+}
+
+.volume-control:hover .volume-control__icon {
+  color: #4ecdc4;
+}
+
+.volume-control__slider {
+  flex: 1;
+  height: 4px;
+  background: #2d3e50;
+  border-radius: 2px;
+  cursor: pointer;
+  position: relative;
+}
+
+.volume-control__fill {
+  height: 100%;
+  background: #4ecdc4;
+  border-radius: 2px;
+  transition: width 0.1s;
+}
+
+.volume-control__slider:hover {
+  height: 6px;
+}

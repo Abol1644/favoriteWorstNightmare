@@ -1,0 +1,38 @@
+.controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+  padding: 1rem 0;
+}
+
+.controls__btn {
+  background: transparent;
+  border: none;
+  color: #a0b8cc;
+  cursor: pointer;
+  padding: 0.5rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ease;
+}
+
+.controls__btn:hover {
+  color: #4ecdc4;
+  transform: scale(1.1);
+  background-color: rgba(78, 205, 196, 0.1);
+}
+
+.controls__btn--play {
+  color: white;
+  background: rgba(78, 205, 196, 0.2);
+  width: 48px;
+  height: 48px;
+}
+
+.controls__btn--play:hover {
+  background: rgba(78, 205, 196, 0.4);
+  box-shadow: 0 0 15px #4ecdc4;
+}
