@@ -4,7 +4,6 @@ import TrackList from './components/TrackList';
 import ProgressBar from './components/ProgressBar';
 import Controls from './components/Controls';
 import VolumeControl from './components/VolumeControl';
-import LyricsPanel from './components/LyricsPanel';
 import { useAudio } from './hooks/useAudio';
 import { useKeyboardShortcuts } from './hooks/useKeyboardShortcuts';
 import { tracks } from './config/tracks';
@@ -62,7 +61,6 @@ const App: React.FC = () => {
               }
             }}
           />
-          <LyricsPanel lyricsPath={currentTrack.lyrics} />
         </div>
       </div>
     </div>
